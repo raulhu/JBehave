@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jbehave-core-3.0.2">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jbehave-core-3.0.2.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
