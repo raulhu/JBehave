@@ -1,0 +1,12 @@
+<story path="com/storm/jbehave/calc_story.story" title="">
+<scenario keyword="Scenario:" title="1">
+<step outcome="successful">Given x is equal to <parameter><parameter>1<parameter>0</parameter></parameter></parameter> or y is equal to <parameter><parameter>1<parameter>0</parameter></parameter></parameter> or c is equal to <parameter>0</parameter></step>
+<step outcome="successful">When I add x equal to 10 with y equal to 10</step>
+<step outcome="successful">Then c is equal to <parameter>20</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="2">
+<step outcome="ignorable">!-- Given c is 20</step>
+<step outcome="successful">When I sub <parameter>10</parameter> from c</step>
+<step outcome="successful">Then c should be <parameter>10</parameter></step>
+</scenario>
+</story>
